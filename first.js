@@ -68,3 +68,8 @@ const sage= [3,4,5,6,7]
 for (num of sage){
     console.log(num**num)
 }
+
+
+for ( num in sage){
+    console.log(num*num)
+}

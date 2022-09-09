@@ -35,6 +35,18 @@ console.log(`With a gender of ${person2.gender} and a marital status of `+person
 console.log("My total attributes of the class is "+Persons.length)
 
 
-//deleting some attributes of the object
-delete[person2.myage]
-person2.display()
+console.log()
+console.log()
+//Exploring classes in JS
+
+let keys = Object.keys(person2) // we wanna extract all the keys of the object
+console.log(keys)
+
+// let's check if a certain string is an attribute of an object
+
+if ('myage' in person2){
+    console.log(" I have an age Bitch!!")
+}
+else{
+    console.log(" Sorry man")
+}
